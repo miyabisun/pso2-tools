@@ -1,0 +1,26 @@
+{
+  "name": "pso2-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyabisun/pso2-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyabisun/pso2-tools/issues"
+  },
+  "homepage": "https://github.com/miyabisun/pso2-tools#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "livescript": "^1.5.0",
+    "prelude-ls": "^1.1.2",
+    "superagent": "^3.5.2"
+  }
+}
