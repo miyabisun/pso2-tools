@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers ls:livescript"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
     "livescript": "^1.5.0",
     "prelude-ls": "^1.1.2",
     "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "recursive-readdir-sync": "^1.0.6"
   }
 }
