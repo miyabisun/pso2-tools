@@ -10,7 +10,7 @@ if (!url) {
 Ac.getHtmlOf(url, function(err, body){
   if (err) console.error(err);
   Ac.parse(body).forEach(function(it){
-    console.info(it.category + "\t" + it.name);
+    console.info(it.category + "\t" + it.name + "\t\t\t\t\t\t" + it.probability + "\t1");
   });
 })
 

@@ -24,4 +24,9 @@ module.exports =
           .filter (_, it)-> $ it .find \th .text! is \ジャンル
           .find \td
           .text!
+        probability: $ it
+          .find ".detail tr"
+          .filter (_, it)-> $ it .find \th .text! is \排出確率
+          .find \td
+          .text! |> (- /%$/)
 
